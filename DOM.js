@@ -27,4 +27,17 @@
 // }
 
 // console.log(document.getElementsByTagName('li'))
- console.log(document.getElementsByClassName('list-group-item'))
+// console.log(document.getElementsByClassName('list-group-item'))
+var header = document.querySelector('#main-header');
+header.style.borderBottom= 'solid 4px #ccc'
+var input = document.querySelector('input')
+input.value = "hellow World"
+
+var submit = document.querySelector('input[type="submit"]');
+submit.value = 'Send'
+
+var secondchild = document.querySelector('.list-group-item:nth-child(2)');
+
+secondchild.style.backgroundColor = 'green'
+var thradchild = document.querySelector(".list-group-item:nth-child(3)");
+thradchild.style.display = "none"
